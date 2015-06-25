@@ -14,6 +14,7 @@
 		3807FA561B3C6F2B0070D9B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3807FA551B3C6F2B0070D9B3 /* Images.xcassets */; };
 		3807FA591B3C6F2B0070D9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3807FA571B3C6F2B0070D9B3 /* LaunchScreen.xib */; };
 		3807FA651B3C6F2B0070D9B3 /* KVO_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807FA641B3C6F2B0070D9B3 /* KVO_AppTests.m */; };
+		3807FA6F1B3C6F7A0070D9B3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3807FA6E1B3C6F7A0070D9B3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3807FA5E1B3C6F2B0070D9B3 /* KVO_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVO_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3807FA631B3C6F2B0070D9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3807FA641B3C6F2B0070D9B3 /* KVO_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_AppTests.m; sourceTree = "<group>"; };
+		3807FA6E1B3C6F7A0070D9B3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		3807FA3C1B3C6F2B0070D9B3 = {
 			isa = PBXGroup;
 			children = (
+				3807FA6E1B3C6F7A0070D9B3 /* .gitignore */,
 				3807FA471B3C6F2B0070D9B3 /* KVO_App */,
 				3807FA611B3C6F2B0070D9B3 /* KVO_AppTests */,
 				3807FA461B3C6F2B0070D9B3 /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3807FA6F1B3C6F7A0070D9B3 /* .gitignore in Resources */,
 				3807FA541B3C6F2B0070D9B3 /* Main.storyboard in Resources */,
 				3807FA591B3C6F2B0070D9B3 /* LaunchScreen.xib in Resources */,
 				3807FA561B3C6F2B0070D9B3 /* Images.xcassets in Resources */,
