@@ -15,6 +15,8 @@
 		3807FA591B3C6F2B0070D9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3807FA571B3C6F2B0070D9B3 /* LaunchScreen.xib */; };
 		3807FA651B3C6F2B0070D9B3 /* KVO_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807FA641B3C6F2B0070D9B3 /* KVO_AppTests.m */; };
 		3807FA6F1B3C6F7A0070D9B3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3807FA6E1B3C6F7A0070D9B3 /* .gitignore */; };
+		3807FA721B3C6FB00070D9B3 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807FA711B3C6FB00070D9B3 /* Children.m */; };
+		3807FA751B3C74670070D9B3 /* KVCMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807FA741B3C74670070D9B3 /* KVCMutableArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		3807FA631B3C6F2B0070D9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3807FA641B3C6F2B0070D9B3 /* KVO_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_AppTests.m; sourceTree = "<group>"; };
 		3807FA6E1B3C6F7A0070D9B3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3807FA701B3C6FB00070D9B3 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		3807FA711B3C6FB00070D9B3 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
+		3807FA731B3C74670070D9B3 /* KVCMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCMutableArray.h; sourceTree = "<group>"; };
+		3807FA741B3C74670070D9B3 /* KVCMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCMutableArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 		3807FA3C1B3C6F2B0070D9B3 = {
 			isa = PBXGroup;
 			children = (
+				3807FA731B3C74670070D9B3 /* KVCMutableArray.h */,
+				3807FA741B3C74670070D9B3 /* KVCMutableArray.m */,
 				3807FA6E1B3C6F7A0070D9B3 /* .gitignore */,
 				3807FA471B3C6F2B0070D9B3 /* KVO_App */,
 				3807FA611B3C6F2B0070D9B3 /* KVO_AppTests */,
@@ -84,6 +92,8 @@
 		3807FA471B3C6F2B0070D9B3 /* KVO_App */ = {
 			isa = PBXGroup;
 			children = (
+				3807FA701B3C6FB00070D9B3 /* Children.h */,
+				3807FA711B3C6FB00070D9B3 /* Children.m */,
 				3807FA4C1B3C6F2B0070D9B3 /* AppDelegate.h */,
 				3807FA4D1B3C6F2B0070D9B3 /* AppDelegate.m */,
 				3807FA4F1B3C6F2B0070D9B3 /* ViewController.h */,
@@ -223,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3807FA751B3C74670070D9B3 /* KVCMutableArray.m in Sources */,
 				3807FA511B3C6F2B0070D9B3 /* ViewController.m in Sources */,
 				3807FA4E1B3C6F2B0070D9B3 /* AppDelegate.m in Sources */,
+				3807FA721B3C6FB00070D9B3 /* Children.m in Sources */,
 				3807FA4B1B3C6F2B0070D9B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Children.h"
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) Children *child1;
+@property (nonatomic, strong) Children *child2;
+@property (nonatomic, strong) Children *child3;
 
 @end
 
